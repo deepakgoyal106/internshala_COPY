@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+/* .messg-button{
+    @apply text-purple-600 m-3 border border-black rounded-lg hover:bg-pink-400 active:bg-amber-950
+} */
+
+@layer components{
+   .messg-button{
+    @apply text-purple-600 m-3 border border-black rounded-lg hover:bg-pink-400 active:bg-amber-950
+} 
+}
+/* main body start */
+body{
+    color:white;
+    font-family: "Lora", serif;
+
+}
+
+/* Home section start */
+.backgrounds{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.pimage{
+  animation-name: myAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation{
+  10%{
+    width: 20%;
+  }
+  50%{
+    width: 35%;
+  }
+  100%{
+    width: 20%;
+  }
+
+}
+/* Home section end */
+
+/* menu start */
+nav a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+    font-size: 25px;
+    transition: all;
+    transition-duration: 0.8s;
+    transition-delay: 0.1s;
+    transition-timing-function: cubic-bezier();
+}
+/* menu end */
+
+/* header start */
+.head h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.head a{
+    margin-bottom: 10px;
+}
+
+.head a:hover{
+    color:red;
+}
+/* header end */
+
+/* certificates start */
+.box:hover img{
+    transform: translateY(-100%);
+    transition: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+.box img{
+    transition: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+.box:hover .box-content{
+    transform: translateY(0%);
+    transition: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+.box-content{
+    transform: translateY(100%);
+    transition: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+/* certificates end */
+
+/* Switch day and night Toggle start */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Switch day and night end  */
+
+/* footer  */
+.phone:hover .h3c{
+  display: none;
+}
+
+.phone:hover .h3n{
+  display: inline;
+}
+
+.email:hover .h3e{
+  display: none;
+}
+
+.email:hover .h3em{
+  display: inline;
+}
+
+.footer h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer a{
+    margin-bottom: 10px;
+}
+
+.footer a:hover{
+    color:red;
+}
+/* footer end */
+
+/* project start */
+.project:hover img{
+  opacity: 0.3;
+  transition: opacity 0.8s ease-in;
+}
+.project img{
+  opacity: 1;
+  transition: opacity 0.8s ease-in;
+}
+.project:hover .project-content{
+   opacity: 1;
+   transition: opacity 0.8s ease-in;
+}
+.project-content{
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+/* project end */
