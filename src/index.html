@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Menu and header start -->
+        <header class="flex justify-between p-3 px-8 items-center fixed top-0 left-0 w-full z-10 bg-black">
+            <h1 class="text-4xl text-red-500">
+                <span class="text-black font-bold bg-white">Deepak</span> Goyal
+            </h1>
+            <!-- toggle start -->
+            <div class="items-center flex">
+                <i class="fa-regular fa-sun "></i>
+                <label class="switch items-center">
+                    
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+                <i class="fa-regular fa-moon"></i>
+            </div>
+            <!-- toggle end -->
+            <nav class="hidden lg:flex gap-5 font-bold text-red-500 text-2xl">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificate">Certificate</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <nav class="lg:hidden"><i class="fa-solid fa-bars"></i></nav>
+        </header>
+         <!-- Menu and header end -->
+        
+        <section class="backgrounds opacity-[0.5] bg-black h-[80vh] lg:h-[100vh]"></section>
+
+        <div id="home" class="head absolute lg:top-[50%] lg:left-[20%] left-[50%] top-[40%] text-center transform translate-[-50%]">
+            <h2 class="text-2xl mb-4">My Name is Deepak Goyal</h2>
+            <p class="text-4xl mb-4">Web Developer</p>
+            <span class="text-2xl">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+            <span class="text-2xl">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </span>
+            <span class="text-2xl">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </span>
+            <span class="text-2xl">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </span>
+            <a href="resume/Deepak_Goya.pdf" target="_blank"><button class="mt-3 rounded-2xl bg-red-600 p-3 w-[200px] text-center hover:bg-black hover:cursor-pointer">Open Resume</button></a>
+        </div>
+        <!-- profile image -->
+        <img class="pimage lg:w-[20%] md:w-[20%] sm:w-[20%] w-[50%] rounded-full relative lg:absolute lg:top-[60%] left-[50%] lg:left-[70%] top-[-50%] text-center transform translate-[-50%]" src="image/profile.jpeg">
+
+        
+
+        <!-- About Section start  -->
+        <div id="about" class="bg-gray-800">
+            <h2 class="text-white text-center mb-5 text-5xl font-bold pt-4">About Me</h2>
+
+            <section class="lg:flex w-[80%] m-[auto]">
+            <img src="image/profile.jpeg" class="lg:w-[45%]">
+            <div class="lg:w-[50%] bg-white text-black text-center flex flex-col items-center justify-center p-4">
+                <p class="text-2xl  mb-4 text-left">
+                I am a web developer, programmer and technology enthusiast with
+                over 5 years experience base. I have a passion for learning and
+                improving my skills each and every day and I often spend my free time
+                learning since the world of web development moves so fast. I have
+                mostly worked with Python PHP, Laravel and Javascript as well as a
+                whole plethora of Javascript libraries and frameworks jQuery. I like to
+                adopt a best practice approach to my work, so methodologies such
+                as automated testing, code reviews, feedback and striving to create
+                the best solution are important to me. Writing clean, understandable
+                and maintainable code I feel are an important aspect of being a web
+                developer.
+                </p>
+                <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Read More</button>
+                    
+            </div>
+            </section>
+        </div>
+        <!-- About Section end  -->
+
+        <!-- My Skill Section start  -->
+         <div id="skills">
+            <h2 class="text-black text-center m-0 my-6 text-5xl font-bold">My Skills</h2>
+            <section class="lg:flex w-[80%] m-[auto]">
+            
+                <section class="lg:w-[100%] text-black font-bold ml-[10%]">
+                <!-- Linear Bar -->
+                    PHP<div class="bg-gray-400 w-[80%] mb-2">
+                        <div class="bg-red-500 w-[90%]">90%</div>
+                    </div>
+                    HTML<div class="bg-gray-400 w-[80%] mb-2">
+                        <div class="bg-red-500 w-[90%]">90%</div>
+                    </div>
+                    Javascript<div class="bg-gray-400 w-[80%] mb-2">
+                        <div class="bg-red-500 w-[70%]">70%</div>
+                    </div>
+                    MySQL<div class="bg-gray-400 w-[80%] mb-2">
+                        <div class="bg-red-500 w-[70%]">70%</div>
+                    </div>
+                    CSS<div class="bg-gray-400 w-[80%] mb-2">
+                        <div class="bg-red-500 w-[50%]">50%</div>
+                    </div>
+            </section>
+            
+            </section>
+        </div>
+        <!-- About Section end  -->
+         
+        <!-- Certifications Section start  -->
+        <div id="certificate" class="bg-gray-400 p-2 mt-2 pb-5">
+            <h2 class="text-white text-center m-0 my-10 text-5xl font-bold">Certifications</h2>
+            <section class="lg:grid lg:grid-cols-3 lg:gap-3">
+                <section class="box relative overflow-hidden mb-3 ">
+                    <img src="certificates/ecolab.jpg">
+                    <section class="flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 box-content h-full w-full">
+                        <h2 class="text-red-600 text-3xl font-bold">
+                        eCircle of Safety
+                        </h2>
+                        <p class="text-2xl w-[80%] mx-[auto] text-black">New Zealand Certified</p>
+                        <a href="certificates/ecolab.jpg" target="_blank">
+                            <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-gray-400 hover:border-red-600 hover:border hover:text-red-600 hover:cursor-pointer">Open Now</button>
+                        </a>
+                
+                    </section>
+                </section>
+                <section class="box relative overflow-hidden mb-3">
+                    <img src="certificates/medic.jpg">
+                    <section class="flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 box-content h-full w-full">
+                        <h2 class="text-red-600 text-3xl font-bold">
+                        First Aider
+                        </h2>
+                        <p class="text-2xl w-[80%] mx-[auto] text-black">New Zealand Cerified First Aider</p>
+                        <a href="certificates/medic.jpg" target="_blank">
+                            <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-gray-400 hover:border-red-600 hover:border hover:text-red-600 hover:cursor-pointer">Open Now</button>
+                        </a>
+                
+                    </section>
+                </section>
+                <section class="box relative overflow-hidden mb-3">
+                    <img src="certificates/java.jpg">
+                    <section class="flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 box-content h-full w-full">
+                        <h2 class="text-red-600 text-3xl font-bold">
+                        Java Certified
+                        </h2>
+                        <p class="text-2xl w-[80%] mx-[auto] text-black">Internshala certified Java</p>
+                        <a href="certificates/java.jpg" target="_blank">
+                            <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-gray-400 hover:border-red-600 hover:border hover:text-red-600 hover:cursor-pointer">Open Now</button>
+                        </a>
+                
+                    </section>
+                </section>
+            </section>
+        </div>
+        <!-- Certifications Section end  -->
+
+        <!-- My Project Section start  -->
+        <h2 class="text-red-700 text-center m-0 my-5 text-5xl font-bold">My Projects</h2>
+        <section id="projects" class="lg:grid lg:grid-cols-3 lg:gap-3">
+            <section class="project relative overflow-hidden p-2 lg:p-0">
+                <img src="project/replicorus.png">
+
+                <section class="project-content flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 h-full w-full">
+                    <h2 class="text-red-600 text-3xl font-bold">
+                        Replicorus
+                    </h2>
+                    <p class="text-2xl w-[80%] mx-[auto] text-black">Wholesaler of Replica Branded Products</p>
+                    <a href="https://replicorus.com/" target="_blank">
+                        <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Visit Now</button>
+                    </a>
+                </section>
+            </section>
+
+            <section class="project relative overflow-hidden p-2 lg:p-0">
+            <img src="project/herbal.png">
+                <section class="project-content flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 h-full w-full">
+                    <h2 class="text-red-600 text-3xl font-bold">
+                        Herbal Nutrition
+                    </h2>
+                    <p class="text-2xl w-[80%] mx-[auto] text-black">Importance of Donation</p>
+                    <a href="https://herbalifefamilyfoundation.org/" target="_blank">
+                        <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Visit Now</button>
+                    </a>
+                </section>
+            </section>
+
+            <section class="project relative overflow-hidden p-2 lg:p-0">
+                <img src="project/replicorus.png">
+
+                <section class="project-content flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 h-full w-full">
+                    <h2 class="text-red-600 text-3xl font-bold">
+                        Replicorus
+                    </h2>
+                    <p class="text-2xl w-[80%] mx-[auto] text-black">Wholesaler of Replica Branded Products</p>
+                    <a href="https://replicorus.com/" target="_blank">
+                        <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Visit Now</button>
+                    </a>
+                </section>
+            </section>
+
+            <section class="project relative overflow-hidden p-2 lg:p-0">
+                <img src="project/replicorus.png">
+
+                <section class="project-content flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 h-full w-full">
+                    <h2 class="text-red-600 text-3xl font-bold">
+                        Replicorus
+                    </h2>
+                    <p class="text-2xl w-[80%] mx-[auto] text-black">Wholesaler of Replica Branded Products</p>
+                    <a href="https://replicorus.com/" target="_blank">
+                        <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Visit Now</button>
+                    </a>
+                </section>
+            </section>
+
+            <section class="project relative overflow-hidden p-2 lg:p-0">
+                <img src="project/replicorus.png">
+
+                <section class="project-content flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 h-full w-full">
+                    <h2 class="text-red-600 text-3xl font-bold">
+                        Replicorus
+                    </h2>
+                    <p class="text-2xl w-[80%] mx-[auto] text-black">Wholesaler of Replica Branded Products</p>
+                    <a href="https://replicorus.com/" target="_blank">
+                        <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Visit Now</button>
+                    </a>
+                </section>
+            </section>
+
+            <section class="project relative overflow-hidden p-2 lg:p-0">
+                <img src="project/replicorus.png">
+
+                <section class="project-content flex flex-col justify-center text-center w-[100%] absolute top-0 left-0 h-full w-full">
+                    <h2 class="text-red-600 text-3xl font-bold">
+                        Replicorus
+                    </h2>
+                    <p class="text-2xl w-[80%] mx-[auto] text-black">Wholesaler of Replica Branded Products</p>
+                    <a href="https://replicorus.com/" target="_blank">
+                        <button class="bg-red-600 text-center text-white p-2 rounded-2xl mx-[auto] hover:bg-transparent hover:border hover:border-black hover:text-black hover:cursor-pointer">Visit Now</button>
+                    </a>
+                </section>
+            </section>
+
+        </section>
+        <!-- My Project Section end  -->
+         
+        <!-- Contact Us Section start  -->
+        <section id="contact" class="bg-gray-800 pb-5">
+            <h2 class="text-white text-center m-0 lg:my-10 text-5xl font-bold pt-4">Contact Us</h2>
+            <section class="lg:flex m-[auto] w-[80%] justify-center items-center">
+                <form class="lg:w-[60%]" action="#">
+                    <input placeholder="name" type="text" class="border border-white mb-3 p-2 w-full" required>
+                    <br>
+                    <input placeholder="email" type="text" class="border border-white mb-3 p-2 w-full" required>
+                    <br>
+                    <textarea rows="8" cols="12" placeholder="Message" class="border border-white mb-3 p-2 w-full" required></textarea>
+                    <br>
+                    <input type="submit" value="Send Now" class="bg-red-600 text-center text-white w-full p-1.5 rounded-x1 hover:border hover:bg-gray-800 hover:border-red-600">
+                </form>
+            </section>
+        </section>
+         <!-- Contact Us Section end  -->
+
+          <!-- Footer Section start  -->
+         
+            <footer class="flex footer m-[auto] w-[100%] flex-wrap bg-black">
+
+                <section class="lg:w-[50%] w-[100%] text-center flex-col">
+                <h2 class="phone hover:text-red-600 hover:cursor-pointer">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="h3c">Call Me</p>
+                    
+                    <p class="h3n hidden">9501723250</p>
+                </h2>
+                </section>
+
+                <section class="lg:w-[50%] w-[100%] text-center flex-col">
+                <h2 class="email hover:text-red-600 hover:cursor-pointer">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="h3e">Email Me</p>
+                    <p class="h3em hidden">deepakgoyal106@gmail.com</p>
+                </h2>
+                </section> 
+            </footer>
+       
+         <!-- Footer Section end  -->
+    </body>
+</html>
